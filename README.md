@@ -121,18 +121,18 @@ Base de datos (MongoDB): Guarda usuarios y gastos
 
 📸 Capturas de pantalla
 
-(Aquí debes poner imágenes de tu app funcionando)
+
 
 Ejemplo:
 
 Login
-Registro
 Dashboard (Gastos)
-Historial
+PWA
 
 🌍 Deploy
 
 La aplicación será desplegada en Vercel.
+link:https://taller4-react-zqi3.vercel.app
 
 👨‍💻 Autor
 
