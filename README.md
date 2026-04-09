@@ -119,15 +119,6 @@ Frontend (React): Maneja la interfaz y consumo de API
 Backend (Express): Maneja lógica, rutas y conexión a base de datos
 Base de datos (MongoDB): Guarda usuarios y gastos
 
-📸 Capturas de pantalla
-
-
-
-Ejemplo:
-
-Login
-Dashboard (Gastos)
-PWA
 
 🌍 Deploy
 
