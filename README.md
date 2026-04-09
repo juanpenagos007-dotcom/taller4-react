@@ -38,7 +38,7 @@ El sistema permite registrar usuarios, iniciar sesión, guardar movimientos fina
 
 ---
 
-## 📁 Estructura del proyecto
+
 ## 📁 Estructura del proyecto
 
 ```
