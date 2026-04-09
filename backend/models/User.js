@@ -1,8 +1,9 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
-const userSchema = new mongoose.Schema({
-  email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
+const UserSchema = new mongoose.Schema({
+  email: { type: String, required: true, unique: true }, // obligatorio y único
+  password: { type: String, required: true }             // obligatorio
 });
 
-module.exports = mongoose.model("User", userSchema);
+// El tercer parámetro indica la colección que se usará en Atlas
+module.exports = mongoose.model('User', UserSchema, 'users');
