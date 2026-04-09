@@ -5,8 +5,8 @@ const mongoose = require('mongoose');
 const app = express();
 
 // ================== CONEXIÓN ==================
-mongoose.connect("mongodb+srv://juanpenagos007_db_user:5794206@moon-cluster.rqudusc.mongodb.net/moon?retryWrites=true&w=majority")
-  .then(() => console.log("Mongo conectado con Atlas"))
+mongoose.connect("mongodb://127.0.0.1:27017/moon")
+  .then(() => console.log("Mongo conectado "))
   .catch(err => console.log(err));
 
 // ================== MIDDLEWARES ==================
