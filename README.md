@@ -40,29 +40,51 @@ El sistema permite registrar usuarios, iniciar sesión, guardar movimientos fina
 
 ## 📁 Estructura del proyecto
 
-
 react4/
 │
-├── t4_proyect/
-│ ├── backend/
-│ │ ├── models/
-│ │ │ ├── User.js
-│ │ │ └── Gasto.js
-│ │ └── index.js
-│ │
-│ ├── src/
-│ │ ├── features/
-│ │ │ ├── auth/
-│ │ │ ├── views/
-│ │ │ └── layout/
-│ │ │
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ │
-│ ├── public/
-│ ├── index.html
-│ └── vite.config.js
-
+└── t4_proyect/
+    │
+    ├── backend/
+    │   ├── models/
+    │   │   ├── User.js
+    │   │   └── Gasto.js
+    │   │
+    │   └── index.js
+    │
+    ├── public/
+    │   ├── img/
+    │   │   ├── favicon.ico
+    │   │   ├── android-chrome-192x192.png
+    │   │   ├── android-chrome-512x512.png
+    │   │   └── apple-touch-icon.png
+    │
+    ├── src/
+    │   ├── assets/
+    │   │
+    │   ├── features/
+    │   │   ├── auth/
+    │   │   │   ├── components/
+    │   │   │   │   └── Login.jsx
+    │   │   │
+    │   │   ├── layout/
+    │   │   │   └── components/
+    │   │   │       ├── Header.jsx
+    │   │   │       └── Footer.jsx
+    │   │   │
+    │   │   └── views/
+    │   │       ├── Home.jsx
+    │   │       ├── Gastos.jsx
+    │   │       ├── Metas.jsx
+    │   │       ├── Estadisticas.jsx
+    │   │       └── ApiRyC.jsx
+    │   │
+    │   ├── App.jsx
+    │   └── main.jsx
+    │
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
 
 ---
 
