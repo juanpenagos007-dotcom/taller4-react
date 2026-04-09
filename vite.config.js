@@ -31,13 +31,13 @@ export default defineConfig({
 
         screenshots: [
         {
-          src: '/img/pwa-convertido-a-192x192.jpeg',
+          src: '/img/principal2.jpeg',
           sizes: '192x192',
           type: 'image/jpeg',
           form_factor: "narrow"
          },
       {
-        src: '/img/principal.png',
+        src: '/img/principal.jpeg',
         sizes: '192x192',
         type: 'image/jpeg',
          form_factor: "wide"
@@ -46,7 +46,7 @@ export default defineConfig({
 
         icons: [
           {
-            src: '/img/pwa-convertido-a-192x192.jpeg',
+            src: '/img/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
