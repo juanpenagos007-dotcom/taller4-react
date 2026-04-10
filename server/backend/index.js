@@ -114,6 +114,10 @@ app.get('/api/gastos/:email', async (req, res) => {
 });
 
 // ================== SERVER ==================
-app.listen(process.env.PORT || 4000, () => {
-  console.log('Servidor corriendo');
-});
+if (process.env.NODE_ENV !== "production") {
+  app.listen(process.env.PORT || 4000, () => {
+    console.log("Servidor corriendo en local");
+  });
+}
+
+module.exports = app;
