@@ -78,9 +78,14 @@ const handleSubmit = async (e) => {
       //  VOLVER A LOGIN AUTOMÁTICO
       setForm("login");
 
-    } catch (error) {
-      alert(error.response?.data?.message || "Este usuario ya existe ");
-    }
+    }    catch (error) {
+         if (error.response) {
+         alert(error.response.data.message);
+       } else {
+         alert("Error de conexión con el servidor");
+      }
+
+   }
 
     return;
   }
@@ -104,7 +109,7 @@ const handleSubmit = async (e) => {
       window.location.href = "/gastos";
 
     } catch (error) {
-      if (error.response?.status === 400) {
+      if (error.response?.status === 400 || error.response?.status === 401) {
        alert(error.response.data.message);
       } else {
        alert("Error del servidor");
