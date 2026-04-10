@@ -122,7 +122,7 @@ Base de datos (MongoDB): Guarda usuarios y gastos
 
 🌍 Deploy
 
-La aplicación será desplegada en Vercel.
+La aplicación desplegada en Vercel.
 link:https://taller4-react-zqi3.vercel.app
 
 👨‍💻 Autor
