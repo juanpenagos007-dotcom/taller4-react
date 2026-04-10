@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
   // 🔹 REGISTER
   if (form === "register") {
     try {
-      await axios.post("http://localhost:4000/api/auth/register", {
+      await axios.post("https://taller4-react-iunb.vercel.app/api/auth/register", {
         email,
         password,
       });
@@ -94,7 +94,7 @@ const handleSubmit = async (e) => {
   if (form === "login") {
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/auth/login",
+        "https://taller4-react-iunb.vercel.app",
         { email, password }
       );
 
