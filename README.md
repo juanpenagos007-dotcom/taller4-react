@@ -33,7 +33,9 @@ Vercel (Frontend)
 Render (Backend)
 MongoDB Atlas (Base de datos)
 
-📁 Estructura del proyecto
+## 📁 Estructura del proyecto
+
+```text
 react4/
 └── t4_proyect/
     ├── backend/
@@ -43,15 +45,35 @@ react4/
     │   └── index.js
     │
     ├── public/
+    │   └── img/
+    │       ├── favicon.ico
+    │       ├── android-chrome-192x192.png
+    │       ├── android-chrome-512x512.png
+    │       └── apple-touch-icon.png
+    │
     ├── src/
     │   ├── features/
     │   │   ├── auth/
     │   │   │   └── components/
     │   │   │       └── Login.jsx
     │   │   ├── layout/
+    │   │   │   └── components/
+    │   │   │       ├── Header.jsx
+    │   │   │       └── Footer.jsx
     │   │   └── views/
+    │   │       ├── Home.jsx
+    │   │       ├── Gastos.jsx
+    │   │       ├── Metas.jsx
+    │   │       ├── Estadisticas.jsx
+    │   │       └── ApiRyC.jsx
+    │
     │   ├── App.jsx
     │   └── main.jsx
+    │
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    └── README.md
     
 ⚙️ Instalación
 1. Clonar el repositorio
