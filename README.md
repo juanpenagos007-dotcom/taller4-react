@@ -14,7 +14,7 @@ El sistema permite registrar usuarios, iniciar sesión, guardar movimientos fina
 - 👤 Identificación de usuario (bienvenida personalizada)  
 - 💰 Registro de ingresos y gastos  
 - 📊 Cálculo automático de balance  
-- 📋 Historial de movimientos  
+- 📋 Historial de movimientos por usuario  
 - 🧠 Persistencia de datos con MongoDB Atlas  
 - 🌐 Consumo de API con Axios  
 - 🎨 Interfaz moderna con Material UI  
@@ -38,6 +38,13 @@ El sistema permite registrar usuarios, iniciar sesión, guardar movimientos fina
 - Mongoose  
 - bcrypt  
 
+### Deploy
+- :contentReference[oaicite:0]{index=0} (Frontend)  
+- :contentReference[oaicite:1]{index=1} (Backend)  
+- :contentReference[oaicite:2]{index=2} (Base de datos)
+
+---
+
 ## 📁 Estructura del proyecto
 
 ```text
@@ -50,64 +57,80 @@ react4/
     │   └── index.js
     │
     ├── public/
-    │   └── img/
-    │       ├── favicon.ico
-    │       ├── android-chrome-192x192.png
-    │       ├── android-chrome-512x512.png
-    │       └── apple-touch-icon.png
-    │
     ├── src/
     │   ├── features/
     │   │   ├── auth/
     │   │   │   └── components/
     │   │   │       └── Login.jsx
     │   │   ├── layout/
-    │   │   │   └── components/
-    │   │   │       ├── Header.jsx
-    │   │   │       └── Footer.jsx
-    │   │   └── views/
-    │   │       ├── Home.jsx
-    │   │       ├── Gastos.jsx
-    │   │       ├── Metas.jsx
-    │   │       ├── Estadisticas.jsx
-    │   │       └── ApiRyC.jsx
-    │
+    │   │   │   ├── Header.jsx
+    │   │   │   └── Footer.jsx
+    │   │   ├── views/
+    │   │   │   ├── Home.jsx
+    │   │   │   ├── Gastos.jsx
+    │   │   │   ├── Metas.jsx
+    │   │   │   ├── Estadisticas.jsx
+    │   │   │   └── ApiRyC.jsx
     │   ├── App.jsx
     │   └── main.jsx
-    │
-    ├── index.html
-    ├── package.json
-    ├── vite.config.js
-    └── README.md
-    
-⚙️ Instalación
-1. Clonar el repositorio
+```
+
+---
+
+## ⚙️ Instalación
+
+```bash
 git clone https://github.com/juanpenagos007-dotcom/taller4-react.git
-2. Entrar al proyecto
 cd t4_proyect
-3. Instalar frontend
 npm install
-4. Instalar backend
-cd backend
-npm install
+```
 
-▶️ Ejecución local
-Backend
+### Backend
+```bash
 cd backend
+npm install
 node index.js
-Frontend
+```
+
+### Frontend
+```bash
 npm run dev
+```
 
-🧩 Arquitectura del sistema
-Frontend (React) → interfaz de usuario y consumo de API
-Backend (Express) → lógica de negocio y autenticación
-Base de datos (MongoDB Atlas) → almacenamiento de usuarios y gastos
+---
 
-🌍 Deploy
-🔵 Frontend: https://taller4-react-gg61.vercel.app
-🟢 Backend: https://taller4-backend.onrender.com
+## ▶️ Ejecución
 
-👨‍💻 Autor
-Juan Benitez
-📍 ADSO - SENA
+- Backend: `node index.js`
+- Frontend: `npm run dev`
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Inicio
+![Inicio](./screenshots/Inicio.png)
+
+### 🔐 Login
+![Login](./screenshots/Login.png)
+
+### 💰 Gastos
+![Gastos](./screenshots/gastos.png)
+
+### ⚙️ Instalador
+![Instalador](./screenshots/Instalador.png)
+
+---
+
+## 🌍 Deploy
+
+- 🔵 Frontend: https://taller4-react-gg61.vercel.app  
+- 🟢 Backend: https://taller4-backend.onrender.com  
+
+---
+
+## 👨‍💻 Autor
+
+Juan Benitez  
+📍 ADSO - SENA  
 💻 Desarrollador Full Stack en formación
