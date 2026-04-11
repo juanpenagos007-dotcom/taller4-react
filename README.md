@@ -108,17 +108,17 @@ npm run dev
 
 ## 📸 Screenshots
 
-### 🏠 Inicio
-![Inicio](./screenshots/Inicio.png)
+### Login
+![Login](./Login.png)
 
-### 🔐 Login
-![Login](./screenshots/Login.png)
+### Inicio
+![Inicio](./Inicio.png)
 
-### 💰 Gastos
-![Gastos](./screenshots/gastos.png)
+### Gastos
+![Gastos](./Gastos.png)
 
-### ⚙️ Instalador
-![Instalador](./screenshots/Instalador.png)
+### Instalador
+![Instalador](./Instalador.png)
 
 ---
 
