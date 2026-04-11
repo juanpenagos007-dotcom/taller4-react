@@ -106,8 +106,8 @@ Base de datos (MongoDB Atlas) → almacenamiento de usuarios y gastos
 🌍 Deploy
 🔵 Frontend: https://taller4-react-gg61.vercel.app
 🟢 Backend: https://taller4-backend.onrender.com
-👨‍💻 Autor
 
+👨‍💻 Autor
 Juan Benitez
 📍 ADSO - SENA
 💻 Desarrollador Full Stack en formación
