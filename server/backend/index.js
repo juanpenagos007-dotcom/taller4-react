@@ -114,10 +114,10 @@ app.get('/api/gastos/:email', async (req, res) => {
 });
 
 // ================== SERVER ==================
-if (process.env.NODE_ENV !== "production") {
-  app.listen(process.env.PORT || 4000, () => {
-    console.log("Servidor corriendo en local");
-  });
-}
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+  console.log("Servidor corriendo en puerto", PORT);
+});
 
 module.exports = app;
