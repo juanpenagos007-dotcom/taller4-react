@@ -1,37 +1,42 @@
-🌙 Moon – Control de Gastos Inteligente
-📌 Descripción
+# 🌙 Moon – Control de Gastos Inteligente
+
+## 📌 Descripción
 
 Moon es una aplicación web desarrollada con React que permite a los usuarios gestionar sus ingresos y gastos de manera sencilla. Cuenta con autenticación de usuarios, almacenamiento en base de datos y una interfaz moderna.
 
 El sistema permite registrar usuarios, iniciar sesión, guardar movimientos financieros y visualizar un historial personalizado por usuario.
 
-🚀 Características principales
-🔐 Registro e inicio de sesión con validación
-👤 Identificación de usuario (bienvenida personalizada)
-💰 Registro de ingresos y gastos
-📊 Cálculo automático de balance
-📋 Historial de movimientos
-🧠 Persistencia de datos con MongoDB Atlas
-🌐 Consumo de API con Axios
-🎨 Interfaz moderna con Material UI
-🚀 Deploy en producción (frontend + backend)
-🛠️ Tecnologías utilizadas
-Frontend
-React
-Vite
-Material UI (MUI)
-Axios
-React Router
-Backend
-Node.js
-Express
-MongoDB
-Mongoose
-bcrypt
-Deploy
-Vercel (Frontend)
-Render (Backend)
-MongoDB Atlas (Base de datos)
+---
+
+## 🚀 Características principales
+
+- 🔐 Registro e inicio de sesión con validación  
+- 👤 Identificación de usuario (bienvenida personalizada)  
+- 💰 Registro de ingresos y gastos  
+- 📊 Cálculo automático de balance  
+- 📋 Historial de movimientos  
+- 🧠 Persistencia de datos con MongoDB Atlas  
+- 🌐 Consumo de API con Axios  
+- 🎨 Interfaz moderna con Material UI  
+- 🚀 Deploy en producción (frontend + backend)
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+### Frontend
+- React  
+- Vite  
+- Material UI (MUI)  
+- Axios  
+- React Router  
+
+### Backend
+- Node.js  
+- Express  
+- MongoDB  
+- Mongoose  
+- bcrypt  
 
 ## 📁 Estructura del proyecto
 
