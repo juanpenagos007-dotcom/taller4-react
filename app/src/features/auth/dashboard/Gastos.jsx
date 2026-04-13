@@ -41,7 +41,7 @@ function Gastos() {
     const fetchGastos = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:4000/api/gastos/${user.email}`
+          `https://taller4-backend.onrender.com/api/gastos/${user.email}`
         );
         setHistorial(res.data);
       } catch (error) {
@@ -71,7 +71,7 @@ function Gastos() {
     };
 
     try {
-      await axios.post("http://localhost:4000/api/gastos", nuevoRegistro);
+      await axios.post("https://taller4-backend.onrender.com/api/gastos", nuevoRegistro);
 
       setHistorial([...historial, nuevoRegistro]);
     } catch (error) {
